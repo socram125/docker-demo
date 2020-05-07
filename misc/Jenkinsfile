@@ -13,6 +13,5 @@ pipeline {
    }
    stage('docker build/push') {
        sh ' echo docker build/push '
-     }
    }
 }
